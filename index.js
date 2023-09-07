@@ -15,12 +15,10 @@ const timeFunction = function updateDateTime() {
   ];
   const currentDayOfWeek = daysOfWeek[currentDate.getUTCDay()];
 
-  const currentTimeString = currentDate.toTimeString();
+  const currentTime = new Date().toUTCString().split(" ")[4] + " UTC";
 
-  const currentTime = currentTimeString;
-
-  dayOfTheWeekElement.textContent = currentDayOfWeek;
   UTCTimeElement.textContent = currentTime;
+  dayOfTheWeekElement.textContent = currentDayOfWeek;
 };
 
 timeFunction();
