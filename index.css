@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 37, 44);
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: min(70%, 31.8em);
+    background-color: rgba(214, 221, 221, 0.427);
+    padding-block: min(1em, 10%);
+    height: 100vh;
+}
+
+.container{
+    width: max(75%, 15.8em);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: rgb(36, 38, 48);
+
+}
+
+.container .name{
+    font-size: max(2.2em, 30%);
+    text-align: center;
+    padding-block: min(0.5em, 4%);
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(22, 22, 25); */
+    border-radius: 8px;
+}
+
+.container img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.container h2{
+    color: rgb(243, 191, 153);
+    text-align: center;
+    padding: 0.5em;
+}
+
+.container a{
+    color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    font-weight: 400;
+    padding-inline: 1em;
+}
+
+ .container a .icon, text{
+    font-size: max(1.5em, 10%);
+    padding-block: 0.2em;
+}
+
+
+
+
+.date-time{
+    color: rgb(255, 255, 255);
+    padding-inline: 1em;
+    display: grid;
+    gap: 0.1em;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="title" content="Stage One Project" />
+    <title>Stage One Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1 data-testid="slackUserName" class="name">Fortunate Omonuwa</h1>
+        <img
+          src="./img/Face.png"
+          alt="Fortunate Omonuwa"
+          data-testid="slackDisplayImage"
+        />
+        <h2 data-testid="myTrack">Front-end</h2>
+          <a
+          href="https://github.com/FortunateOmonuwa"
+          class="github"
+          data-testid="“githubURL”"
+        >
+          <i class="fa-brands fa-github icon"></i>
+          <span class="text">GitHub</span>
+        </a>
+        <div class="date-time">
+          <span data-testid="currentDayOfTheWeek" id="dayOfTheWeek"></span>
+          <span data-testid="currentUTCTime" id="UTCTime"></span>
+        </div>
+        
+      
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
